@@ -1,0 +1,23 @@
+//
+//  FileHelpers.h
+//  AAPinChe
+//
+//  Created by Reese on 13-1-17.
+//  Copyright (c) 2013年 Himalayas Technology&Science Company CO.,LTD-重庆喜玛拉雅科技有限公司. All rights reserved.
+//  这是一个纯C函数，用于获取应用沙盒文件路径
+//
+
+#import <Foundation/Foundation.h>
+@interface FileHelpers:NSObject
+{
+    
+}
+UIImage *changeImageSize(UIImage *image,int w,int h);
+NSString *pathInDocumentDirectory(NSString *fileName);
+NSString *pathInCacheDirectory(NSString *fileName);
+NSString *pathForURL(NSURL *aURL);
+BOOL hasCachedImage(NSURL *aURL);
+NSString *hashCodeForURL(NSURL *aURL);
++(void)dispatch_process_with_thread:(UIImage* (^)())block1 result:(void (^)(UIImage*))block2;
+
+@end

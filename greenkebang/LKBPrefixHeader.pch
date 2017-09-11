@@ -1,0 +1,57 @@
+//
+//  YQPrefixHeader.pch
+//  youqu
+//
+//  Created by chun.chen on 15/7/24.
+//  Copyright (c) 2015年 youqu. All rights reserved.
+//
+
+#ifndef youqu_YQPrefixHeader_pch
+#define youqu_YQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "WFToolKit.h"
+#import "LKBMacroDefine.h"
+#import "UIColor+Util.h"
+#import "NSStrUtil.h"
+#import "CommonMacro.h"
+#import "MBProgressHUD+Add.h"
+ #import "EaseMob.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "BaseViewController.h"
+#import "LKBNetworkManage.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+#import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+#import "EaseMob.h"
+#import "LKBVenderDefine.h"
+#import "UIImageView+EMWebCache.h"
+#import "XHToast.h"
+#import <UMMobClick/MobClick.h>
+
+// 建议放在pch文件中
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"//自动布局cell高度
+
+#define KNOTIFICATION_LOGINCHANGE @"loginStateChange"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+#import <Masonry.h>
+
+#endif
+
+#if DEBUG
+//#warning NSLogs will be show
+#else
+#define NSLog(...) {}
+#endif

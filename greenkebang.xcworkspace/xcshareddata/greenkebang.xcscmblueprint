@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C097D5F6B2103BBFC9BB3AA82D992799F40247E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C097D5F6B2103BBFC9BB3AA82D992799F40247E" : 0,
+    "496A7935DBF4B516645093B49334DD9260B763C5" : 0,
+    "C1F36D8553D418490856F3E50B93C58567535E93" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5DE42B54-4163-4945-8797-EE80DEFE66E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C097D5F6B2103BBFC9BB3AA82D992799F40247E" : "lvkebang\/",
+    "496A7935DBF4B516645093B49334DD9260B763C5" : "lvkebang22\/",
+    "C1F36D8553D418490856F3E50B93C58567535E93" : "lvkebangios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "greenkebang",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "greenkebang.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/zhengyw\/lvkebang22.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "496A7935DBF4B516645093B49334DD9260B763C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/zhengyw\/lvkebang33.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C097D5F6B2103BBFC9BB3AA82D992799F40247E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/eanldai\/lvkebangios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1F36D8553D418490856F3E50B93C58567535E93"
+    }
+  ]
+}
